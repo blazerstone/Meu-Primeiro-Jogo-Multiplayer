@@ -1,0 +1,22 @@
+{
+  "name": "Jogo Multiplayer",
+  "version": "1.0.0",
+  "description": "Jogo simples multiplayer feito com node, express e Socket.IO.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "npx nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "moment": "^2.27.0",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  },
+  "keywords": [],
+  "author": "Blazer Stone",
+  "license": "MIT"
+}
